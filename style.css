@@ -80,7 +80,7 @@ header {
 .hero {
     height: 100vh;
     /* UPDATED: Using your local image with a dark overlay */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/herobg1.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/herobg.png') no-repeat center center/cover;
     display: flex; align-items: center; justify-content: center; text-align: center; color: white; position: relative;
 }
 .hero-content h1 { font-size: 4rem; margin-bottom: 20px; line-height: 1.2; }
