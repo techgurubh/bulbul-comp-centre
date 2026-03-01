@@ -278,25 +278,6 @@ footer { text-align: center; padding: 20px; border-top: 1px solid rgba(255,255,2
 }
 /* --- PRINTER SVG ANIMATION STYLES --- */
 
-/* Paper printing animation - moves paper down */
-@keyframes printPaper {
-  0% {
-    transform: translateY(-60px);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(80px);
-    opacity: 1;
-  }
-}
-
-.paper-printing {
-  animation: printPaper 3.5s ease-in-out infinite;
-}
-
 /* Indicator light blinking */
 @keyframes blink {
   0%, 50% {
