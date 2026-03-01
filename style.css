@@ -349,3 +349,30 @@ footer { text-align: center; padding: 20px; border-top: 1px solid rgba(255,255,2
         max-width: 300px;
     }
 }
+
+/* PHOTO PRINTING ANIMATION */
+
+@keyframes printPage1 {
+  0% { transform: translateY(-60px); opacity: 0; }
+  10% { opacity: 1; }
+  40% { transform: translateY(80px); opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes printPage2 {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  50% { transform: translateY(-60px); opacity: 0; }
+  60% { opacity: 1; }
+  90% { transform: translateY(80px); opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.paper-printing {
+  animation: printPage1 8s ease-in-out infinite;
+}
+
+.paper-printing-2 {
+  animation: printPage2 8s ease-in-out infinite;
+}
